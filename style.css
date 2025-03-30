@@ -46,6 +46,16 @@
   scroll-snap-type: x mandatory; /* Enable horizontal scroll snapping */
 }
 
+/* Timeline Instructions Styling */
+.timeline-instructions {
+  font-family: 'Arial', 'Helvetica Neue', sans-serif; /* Intel-like font stack */
+  font-size: 1em; /* Standard font size */
+  color: #333; /* Dark gray text for readability */
+  text-align: center; /* Center align the text */
+  margin-top: 20px; /* Add space above the instructions */
+  margin-bottom: 20px; /* Add space below the instructions */
+}
+
 /* Card Styling */
 .card {
   flex: 0 0 300px; /* Set a fixed width for each card */
